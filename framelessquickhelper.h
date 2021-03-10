@@ -77,7 +77,7 @@ public:
     void setBorderHeight(const int val);
 
     int titleBarHeight() const;
-    void setTitleBarHeight(const int val);
+    Q_INVOKABLE void setTitleBarHeight(const int val);
 
     bool resizable() const;
     void setResizable(const bool val);
